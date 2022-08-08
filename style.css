@@ -1,0 +1,12 @@
+.team-card:hover #team-img {
+    transform: translateY(-110px);
+}
+
+.team-card .social {
+    visibility: hidden;
+    transition: .3s ease-in-out;
+}
+
+.team-card:hover .social {
+    visibility: visible;
+}
